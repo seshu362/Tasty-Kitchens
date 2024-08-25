@@ -1,0 +1,169 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-view-img {
+  width: 80%;
+  height: 350px;
+  align-self: flex-end;
+}
+.logo-img {
+  display: none;
+}
+
+.tasty-kitchens-text {
+  display: none;
+}
+
+.login-details-container {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  order: 2;
+}
+
+.login-card-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.login-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #0f172a;
+  margin-top: 0px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #475569;
+}
+.user-input {
+  background-color: #e2e8f0;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.password-input {
+  background-color: #e2e8f0;
+  width: 100%;
+  height: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #f7931e;
+  width: 100%;
+  color: #ffffff;
+  height: 43px;
+  padding-left: 15px;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.website-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  .mobile-view-img {
+    display: none;
+  }
+  .login-details-container {
+    order: 0;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-card-container {
+    height: 523px;
+    width: 456px;
+    left: 165px;
+    top: 250px;
+    border-radius: 8px;
+    background: #fefeff;
+    box-shadow: 0px 8px 40px 0px #07070714;
+    margin: 0px;
+    padding-top: 50px;
+  }
+  .logo-img {
+    display: block;
+    width: 53px;
+    height: 43px;
+    align-self: center;
+    margin-bottom: 0px;
+  }
+  .tasty-kitchens-text {
+    display: block;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 32px;
+    color: #f7931e;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .login-text {
+    text-align: center;
+  }
+  .form-container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .user-input {
+    margin-top: 10px;
+  }
+
+  .password-input {
+    margin-bottom: 40px;
+  }
+  .website-img {
+    display: block;
+    width: 40%;
+    height: 100%;
+    margin: 0px;
+    align-self: right;
+    order: 1;
+  }
+}

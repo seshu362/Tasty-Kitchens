@@ -1,0 +1,133 @@
+.link {
+  text-decoration: none;
+}
+.mobile-list-restaurant-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.restaurant-images {
+  width: 140px;
+  height: 145px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.restaurant-details-bg-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.restaurant-name-heading {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: #334155;
+}
+
+.restaurant-cuisine-para {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.rating-container-home {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.rating-restaurant {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.reviews-restaurant {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #64748b;
+  margin-top: 20px;
+}
+
+.screen-list-restaurant-items {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-list-restaurant-items {
+    display: none;
+  }
+
+  .screen-list-restaurant-items {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 350px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .restaurant-screen-images {
+    height: 150px;
+    width: 150px;
+    margin-right: 30px;
+    border-radius: 5px;
+  }
+  .screen-restaurant-details-bg-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .screen-restaurant-name-heading {
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #334155;
+  }
+  .screen-restaurant-cuisine-para {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Roboto';
+    color: #64748b;
+    margin-top: 0px;
+  }
+  .screen-rating-container-home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .screen-rating-restaurant {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    color: #1e293b;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  .screen-reviews-restaurant {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto';
+    color: #64748b;
+    margin-top: 20px;
+  }
+}

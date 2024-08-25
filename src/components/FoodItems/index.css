@@ -1,0 +1,136 @@
+.food-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  height: 190px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-list-item {
+    width: 45%;
+    height: 220px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+.food-item-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-item-img {
+    height: 220px;
+    width: 220px;
+    margin-right: 17px;
+  }
+}
+
+.restaurant-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-top: 7px;
+}
+.food-restaurant-name {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  color: #334155;
+  margin-bottom: 0px;
+}
+
+.restaurant-amount-container {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  width: 100%;
+}
+
+.amount-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.restaurant-rating-container {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  align-items: center;
+  width: 100%;
+}
+
+.item-rating {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18.23px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.add-btn {
+  height: 40px;
+  width: 80px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #ffa412;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffa412;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.restaurant-quantity-container {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.quantity-num {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #475569;
+}
+
+.quantity-button-minus {
+  outline: none;
+  cursor: pointer;
+  margin-right: 15px;
+  padding-right: 10px;
+  border: none;
+}
+.quantity-button-plus {
+  outline: none;
+  margin-left: 14px;
+  cursor: pointer;
+  padding-right: 10px;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .food-restaurant-name {
+    font-size: 25px;
+  }
+  .quantity-num {
+    font-size: 24px;
+  }
+}
